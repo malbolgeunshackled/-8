@@ -1,0 +1,5 @@
+1 - <script>alert('XSS')</script>
+2 - <script>alert('XSS via Upload')</script>
+3 - <img src=x onerror="alert('XSS Private Snippet')">
+4 - <img src=x onerror="alert('XSS')">
+5 - <img src=x onerror="alert('XSS')">
